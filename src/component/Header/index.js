@@ -1,23 +1,31 @@
 import React from "react";
-import AZ from "../../Images/Grand_Canyon.jpg";
-import LB from "../../Images/Long Beach.jpg";
-import RN from "../../Images/reno.jpg";
-import LA from "../../Images/Los Angeles.jpg";
+// Images for the github and linked-in buttons
+
 import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <div id="home">
       <h1>Nicolai Pitroff's Portfolio</h1>
-      <div class="row">
-        <div class="column">
-          <img alt="Grand Canyon" src={AZ}></img>
-          <img alt="Long Beach" src={LB}></img>
-          <img alt="Reno" src={RN}></img>
-          <img alt="Los Angeles" src={LA}></img>
-        </div>
-      </div>
-    </nav>
+      <nav id="navbar">
+        {/* Linked In */}
+        <a href="https://www.linkedin.com/in/nicolaipitroff">
+          <img
+            src="https://image.flaticon.com/icons/svg/174/174857.svg"
+            alt="My Linked In"
+            id="myLink"
+          />
+        </a>
+        {/* Github */}
+        <a href="https://github.com/NPitroff" id="myGit">
+          <img
+            src="https://avatars0.githubusercontent.com/u/9919?s=280&v=4"
+            alt="My Github"
+            id="myGit"
+          />
+        </a>
+      </nav>
+    </div>
   );
 }
 
