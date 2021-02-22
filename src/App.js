@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./component/Header";
 import Wrapper from "./component/Wrapper";
 import Footer from "./component/Footer";
+import gitRepo from "./pages/gitRepo";
 // import Project from "./component/Project";
 
 //bootstrap script::::::::::::::::::::::
@@ -18,7 +19,7 @@ function App() {
       <div>
     <Header />
       <Wrapper />
-      
+      <gitRepo />
       <Footer />
       </div>
       </Router>

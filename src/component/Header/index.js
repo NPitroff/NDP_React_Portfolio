@@ -24,6 +24,7 @@ function Header() {
             id="myGit"
           />
         </a>
+        {/* Links for Home, Biography, Contact, Projects */}
       </nav>
     </div>
   );
