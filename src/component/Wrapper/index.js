@@ -10,17 +10,17 @@ import "./style.css";
 
 function Wrapper() {
     return(
-        <div class="row">
-        <div class="column" id="travels">
+        <div className="row">
+        <div className="column" id="travels">
           <img alt="Grand Canyon" src={AZ}></img>
         </div>
-        <div class="column">
+        <div className="column">
           <img alt="Long Beach" src={LB}></img>
         </div>
-        <div class="column">
+        <div className="column">
           <img alt="Reno" src={RN}></img>
         </div>
-        <div class="column">
+        <div className="column">
           <img alt="Los Angeles" src={LA}></img>
         </div>
       </div>
