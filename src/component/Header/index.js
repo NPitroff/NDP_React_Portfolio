@@ -1,5 +1,5 @@
 import React from "react";
-// Images for the github and linked-in buttons
+// 
 
 import { Link } from "react-router-dom";
 
