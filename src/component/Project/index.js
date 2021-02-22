@@ -1,56 +1,40 @@
 import React, { useState, useEffect } from "react";
+import Container from "../Container/index";
 import * as API from "../../utils/API";
 
-function Project(){
-    const [projects, projectState] = useState({});
-        // projectName:"",
-        // projectLink:"",
-        // deployedLink:"",
-        // projectDescription:""
-   
+function Project() {
+  const [projects, projectState] = useState([]);
+  
 
-    useEffect(() => {
-        API.repoAPI.then((projects) =>{            
-            console.log("Repository State:");
-            console.log(projects);
-            projectState(projects);
-        });
-    }, );
+  useEffect(() => {
+    API.repoAPI.then((projects) => {
+      console.log("Repository State:");
+      console.log(projects);
+      projectState(projects);
+    });
+  });
+  console.log("Outside the useEffect", projects);
+  return (
+    <Container style={{ minHeight: "80%" }}>
+      <h1 className="text-center">My Projects</h1>
 
-// function Project(){
-//     // for project name
-//     const [projects, setProject] = useState([]);
-//     // for project link
-//     // const
-//     // //for deployed link
-//     // const
-//     //for description
+      <div className="row">
+        {projects.map((project) => {
+          
 
-//     useEffect(() =>[{
-//         projectName:"NDP_Employee Database",
-//             projectLink:"https://github.com/NPitroff/NDP_EmployeeDatabase",
-//             deployedLink:"https://ndpendent-employee-database.herokuapp.com/",
-//             projectDescription:"A Employee Database filter that sorts based on Names"
-//         },
-        
-//     ])
-
-    return(
-        <div className="card">
-            <div>
-                Project Name: {projects.projectName}
+          return (
+            <div className="card col-3">
+              
+              <div>Project Name: {project.projectName}</div>
+              <div>Project Code Link: {project.projectLink}</div>
+              <div>Deployed Project: {project.deployedLink}</div>
+              <div>About the Project: {project.projectDescription}</div>
             </div>
-            <div>
-                Repo Link: {projects.projectLink}
-            </div>
-            <div>
-                Deployed Project Link: {projects.deployedLink}
-            </div>
-            <div>
-                Description: {projects.projectDescription}
-            </div>
-        </div>
-    );
+          );
+        })}
+      </div>
+    </Container>
+  );
 }
 
 export default Project;
