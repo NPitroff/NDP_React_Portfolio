@@ -10,7 +10,7 @@ function Project(){
    
 
     useEffect(() => {
-        API.repoAPI.then(({ projects }) =>{            
+        API.repoAPI.then((projects) =>{            
             console.log("Repository State:");
             console.log(projects);
             projectState(projects);
