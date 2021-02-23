@@ -1,4 +1,5 @@
 import React from "react";
+
 // 
 
 import { Link } from "react-router-dom";
@@ -25,6 +26,20 @@ function Header() {
           />
         </a>
         {/* Links for Home, Biography, Contact  */}
+        <ul className="navbar-nav">
+          <li className="nav-item">
+          <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/contact"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
       </nav>
     </div>
   );
