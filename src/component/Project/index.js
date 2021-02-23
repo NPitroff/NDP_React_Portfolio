@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Container from "../Container/index";
 import * as API from "../../utils/API";
+import "./style.css"
 
 function Project() {
   const [projects, projectState] = useState([]);
@@ -25,10 +26,12 @@ function Project() {
           return (
             <div className="card col-3">
               
-              <div>Project Name: {project.projectName}</div>
-              <div>Project Code Link: {project.projectLink}</div>
-              <div>Deployed Project: {project.deployedLink}</div>
-              <div>About the Project: {project.projectDescription}</div>
+              <div className="bold-label">Project Name:</div>
+              <span>{project.projectName}</span>
+              <div className="bold-label">Project Code Link: <a href={project.projectLink}>Github</a></div>
+              <div className="bold-label">Deployed Project: <a href={project.deployedLink}>Live Project</a></div>
+              <div className="bold-label">About the Project: </div>
+              <span>{project.projectDescription}</span>
             </div>
           );
         })}

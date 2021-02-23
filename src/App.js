@@ -4,6 +4,8 @@ import Header from "./component/Header";
 import Wrapper from "./component/Wrapper";
 import Footer from "./component/Footer";
 import Gitrepo from "./pages/gitRepo";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 // import Project from "./component/Project";
 
 //bootstrap script::::::::::::::::::::::
@@ -19,7 +21,9 @@ function App() {
       <div>
     <Header />
       <Wrapper />
-      <Gitrepo />
+      <Route exact path ="/" component ={Home}/>
+      <Route exact path ="/gitrepo" component={Gitrepo} />
+      <Route exact path="/Contact" component={Contact}/>
       <Footer />
       </div>
       </Router>

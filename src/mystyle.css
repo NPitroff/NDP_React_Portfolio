@@ -173,6 +173,7 @@ width:auto;
 }
 
 #myPicture{
+  height: auto;
   width:auto; 
   padding:0.5em;
 
