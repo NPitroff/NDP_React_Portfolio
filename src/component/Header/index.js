@@ -28,8 +28,9 @@ function Header() {
         {/* Links for Home, Biography, Contact  */}
         <ul className="navbar-nav">
           <li className="nav-item">
+            {/* Contact Link */}
           <Link
-              to="/"
+              to="/contact"
               className={
                 window.location.pathname === "/" || window.location.pathname === "/contact"
                   ? "nav-link active"
@@ -37,6 +38,34 @@ function Header() {
               }
             >
               Contact
+            </Link>
+          </li>
+          {/* GitRepo */}
+          <li className="nav-item">
+            {/* Contact Link */}
+          <Link
+              to="/gitrepo"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/gitrepo"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              My projects
+            </Link>
+          </li>
+          {/* Home */}
+          <li className="nav-item">
+            {/* Contact Link */}
+          <Link
+              to="/"
+              className={
+                window.location.pathname === "/" || window.location.pathname === "/"
+                  ? "nav-link active"
+                  : "nav-link"
+              }
+            >
+              Home
             </Link>
           </li>
         </ul>
