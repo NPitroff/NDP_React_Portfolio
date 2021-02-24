@@ -21,7 +21,7 @@ function App() {
       <div>
     <Header />
       <Wrapper />
-      <Route exact path ="/" component ={Home}/>
+      <Route  path ="/" component ={Home}/>
       <Route exact path ="/gitrepo" component={Gitrepo} />
       <Route exact path="/Contact" component={Contact}/>
       <Footer />
