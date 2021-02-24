@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/NDP_React_Portfolio/static/css/main.fd751d46.chunk.css",
+    "main.js": "/NDP_React_Portfolio/static/js/main.348154fc.chunk.js",
+    "main.js.map": "/NDP_React_Portfolio/static/js/main.348154fc.chunk.js.map",
+    "runtime-main.js": "/NDP_React_Portfolio/static/js/runtime-main.65e0054c.js",
+    "runtime-main.js.map": "/NDP_React_Portfolio/static/js/runtime-main.65e0054c.js.map",
+    "static/css/2.658248ec.chunk.css": "/NDP_React_Portfolio/static/css/2.658248ec.chunk.css",
+    "static/js/2.f56af226.chunk.js": "/NDP_React_Portfolio/static/js/2.f56af226.chunk.js",
+    "static/js/2.f56af226.chunk.js.map": "/NDP_React_Portfolio/static/js/2.f56af226.chunk.js.map",
+    "static/js/3.2517a9db.chunk.js": "/NDP_React_Portfolio/static/js/3.2517a9db.chunk.js",
+    "static/js/3.2517a9db.chunk.js.map": "/NDP_React_Portfolio/static/js/3.2517a9db.chunk.js.map",
+    "index.html": "/NDP_React_Portfolio/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/NDP_React_Portfolio/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.fd751d46.chunk.css.map": "/NDP_React_Portfolio/static/css/main.fd751d46.chunk.css.map",
+    "static/js/2.f56af226.chunk.js.LICENSE.txt": "/NDP_React_Portfolio/static/js/2.f56af226.chunk.js.LICENSE.txt",
+    "static/media/Grand_Canyon.6ac56c25.jpg": "/NDP_React_Portfolio/static/media/Grand_Canyon.6ac56c25.jpg",
+    "static/media/Long Beach.b9359d08.jpg": "/NDP_React_Portfolio/static/media/Long Beach.b9359d08.jpg",
+    "static/media/Los Angeles.db17e3d6.jpg": "/NDP_React_Portfolio/static/media/Los Angeles.db17e3d6.jpg",
+    "static/media/My Profile.893609ea.jpg": "/NDP_React_Portfolio/static/media/My Profile.893609ea.jpg",
+    "static/media/reno.e33ab57d.jpg": "/NDP_React_Portfolio/static/media/reno.e33ab57d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65e0054c.js",
+    "static/css/2.658248ec.chunk.css",
+    "static/js/2.f56af226.chunk.js",
+    "static/css/main.fd751d46.chunk.css",
+    "static/js/main.348154fc.chunk.js"
+  ]
+}
