@@ -40,7 +40,7 @@ width:auto;
   background-color: #0073e6;
 }
 
-#navbar:hover{
+a.nav-link:hover{
   background-color: #66b3ff;
 }
 
