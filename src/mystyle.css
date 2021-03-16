@@ -40,6 +40,10 @@ width:auto;
   background-color: #0073e6;
 }
 
+#navbar:hover{
+  background-color: #66b3ff;
+}
+
 #navbar a{
   float: left;
   display: block;
