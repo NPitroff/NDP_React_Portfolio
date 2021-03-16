@@ -25,6 +25,7 @@ function Home() {
           love to solve new problems presented while coding. I believe that this
           newfound passion and drive to push my coding knowledge would be a
           strong addition to any organization.</p>
+          <p class="state">My Resume</p><a href="https://docs.google.com/document/d/1n3lecvAhEwEvqzFQlkT-z9XbSedEhwn4E2G13pm4bOA/edit?usp=sharing">https://docs.google.com/document/d/1n3lecvAhEwEvqzFQlkT-z9XbSedEhwn4E2G13pm4bOA/edit?usp=sharing</a>
       </div>
     </Container>
   );
